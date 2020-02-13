@@ -1,0 +1,987 @@
+ISO-10303-21;
+HEADER;
+/******************************************************************************************* STEP Physical File produced by: The EXPRESS Data Manager Version 5.02.0100.07 : 28 Aug 2013* Module:                         EDMstepFileFactory/EDMstandAlone* Creation date:                  Tue Nov 13 16:27:31 2018* Host:                           IBAUPC02* Database:                       C:\Users\GSIBEN~1.INT\AppData\Local\Temp\{492F29C9-C4BD-4EA6-B81B-B5DF38182686}\ifc* Database version:               5507* Database creation date:         Tue Nov 13 16:27:30 2018* Schema:                         IFC2X3* Model:                          DataRepository.ifc* Model creation date:            Tue Nov 13 16:27:30 2018* Header model:                   DataRepository.ifc_HeaderModel* Header model creation date:     Tue Nov 13 16:27:30 2018* EDMuser:                        sdai-user* EDMgroup:                       sdai-group* License ID and type:            5605 : Permanent license. Expiry date: * EDMstepFileFactory options:     020000******************************************************************************************/FILE_DESCRIPTION(('ViewDefinition [CoordinationView_V2.0]'),'2;1');
+FILE_NAME('Project Number','2018-11-13T16:27:31',(''),(''),'The EXPRESS Data Manager Version 5.02.0100.07 : 28 Aug 2013','20160225_1515(x64) - Exporter 17.0.416.0 - Alternate UI 17.12.14.0','');
+FILE_SCHEMA(('IFC2X3'));
+ENDSEC;
+DATA;
+{
+"objectRef" : "#1","entity" : "IFCORGANIZATION","Id" : "$","Name" : "'Autodesk Revit 2017 (ENU)'","Description" : "$","Roles" : "$","Addresses" : "$"
+}
+{
+"objectRef" : "#5","entity" : "IFCAPPLICATION","ApplicationDeveloper" : "#1","Version" : "'2017'","ApplicationFullName" : "'Autodesk Revit 2017 (ENU)'","ApplicationIdentifier" : "'Revit'"
+}
+{
+"objectRef" : "#6","entity" : "IFCCARTESIANPOINT","Coordinates" : ["0.","0.","0."]
+}
+{
+"objectRef" : "#9","entity" : "IFCCARTESIANPOINT","Coordinates" : ["0.","0."]
+}
+{
+"objectRef" : "#11","entity" : "IFCDIRECTION","DirectionRatios" : ["1.","0.","0."]
+}
+{
+"objectRef" : "#13","entity" : "IFCDIRECTION","DirectionRatios" : ["-1.","0.","0."]
+}
+{
+"objectRef" : "#15","entity" : "IFCDIRECTION","DirectionRatios" : ["0.","1.","0."]
+}
+{
+"objectRef" : "#17","entity" : "IFCDIRECTION","DirectionRatios" : ["0.","-1.","0."]
+}
+{
+"objectRef" : "#19","entity" : "IFCDIRECTION","DirectionRatios" : ["0.","0.","1."]
+}
+{
+"objectRef" : "#21","entity" : "IFCDIRECTION","DirectionRatios" : ["0.","0.","-1."]
+}
+{
+"objectRef" : "#23","entity" : "IFCDIRECTION","DirectionRatios" : ["1.","0."]
+}
+{
+"objectRef" : "#25","entity" : "IFCDIRECTION","DirectionRatios" : ["-1.","0."]
+}
+{
+"objectRef" : "#27","entity" : "IFCDIRECTION","DirectionRatios" : ["0.","1."]
+}
+{
+"objectRef" : "#29","entity" : "IFCDIRECTION","DirectionRatios" : ["0.","-1."]
+}
+{
+"objectRef" : "#31","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#6","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#32","entity" : "IFCLOCALPLACEMENT","PlacementRelTo" : "#525","RelativePlacement" : "#31"
+}
+{
+"objectRef" : "#35","entity" : "IFCPERSON","Id" : "$","FamilyName" : "''","GivenName" : "'gsibenik'","MiddleNames" : "$","PrefixTitles" : "$","SuffixTitles" : "$","Roles" : "$","Addresses" : "$"
+}
+{
+"objectRef" : "#37","entity" : "IFCORGANIZATION","Id" : "$","Name" : "''","Description" : "''","Roles" : "$","Addresses" : "$"
+}
+{
+"objectRef" : "#38","entity" : "IFCPERSONANDORGANIZATION","ThePerson" : "#35","TheOrganization" : "#37","Roles" : "$"
+}
+{
+"objectRef" : "#41","entity" : "IFCOWNERHISTORY","OwningUser" : "#38","OwningApplication" : "#5","State" : "$","ChangeAction" : ".NOCHANGE.","LastModifiedDate" : "$","LastModifyingUser" : "$","LastModifyingApplication" : "$","CreationDate" : "1539868652"
+}
+{
+"objectRef" : "#42","entity" : "IFCSIUNIT","Dimensions" : "*","UnitType" : ".LENGTHUNIT.","Prefix" : ".MILLI.","Name" : ".METRE."
+}
+{
+"objectRef" : "#43","entity" : "IFCSIUNIT","Dimensions" : "*","UnitType" : ".LENGTHUNIT.","Prefix" : "$","Name" : ".METRE."
+}
+{
+"objectRef" : "#44","entity" : "IFCSIUNIT","Dimensions" : "*","UnitType" : ".AREAUNIT.","Prefix" : "$","Name" : ".SQUARE_METRE."
+}
+{
+"objectRef" : "#45","entity" : "IFCSIUNIT","Dimensions" : "*","UnitType" : ".VOLUMEUNIT.","Prefix" : "$","Name" : ".CUBIC_METRE."
+}
+{
+"objectRef" : "#46","entity" : "IFCSIUNIT","Dimensions" : "*","UnitType" : ".PLANEANGLEUNIT.","Prefix" : "$","Name" : ".RADIAN."
+}
+{
+"objectRef" : "#47","entity" : "IFCDIMENSIONALEXPONENTS","LengthExponent" : "0","MassExponent" : "0","TimeExponent" : "0","ElectricCurrentExponent" : "0","ThermodynamicTemperatureExponent" : "0","AmountOfSubstanceExponent" : "0","LuminousIntensityExponent" : "0"
+}
+{
+"objectRef" : "#48","entity" : "IFCMEASUREWITHUNIT","ValueComponent" : "IFCRATIOMEASURE(0.0174532925199433)","UnitComponent" : "#46"
+}
+{
+"objectRef" : "#49","entity" : "IFCCONVERSIONBASEDUNIT","Dimensions" : "#47","UnitType" : ".PLANEANGLEUNIT.","Name" : "'DEGREE'","ConversionFactor" : "#48"
+}
+{
+"objectRef" : "#50","entity" : "IFCSIUNIT","Dimensions" : "*","UnitType" : ".MASSUNIT.","Prefix" : ".KILO.","Name" : ".GRAM."
+}
+{
+"objectRef" : "#51","entity" : "IFCSIUNIT","Dimensions" : "*","UnitType" : ".TIMEUNIT.","Prefix" : "$","Name" : ".SECOND."
+}
+{
+"objectRef" : "#52","entity" : "IFCSIUNIT","Dimensions" : "*","UnitType" : ".FREQUENCYUNIT.","Prefix" : "$","Name" : ".HERTZ."
+}
+{
+"objectRef" : "#53","entity" : "IFCSIUNIT","Dimensions" : "*","UnitType" : ".THERMODYNAMICTEMPERATUREUNIT.","Prefix" : "$","Name" : ".KELVIN."
+}
+{
+"objectRef" : "#54","entity" : "IFCSIUNIT","Dimensions" : "*","UnitType" : ".THERMODYNAMICTEMPERATUREUNIT.","Prefix" : "$","Name" : ".DEGREE_CELSIUS."
+}
+{
+"objectRef" : "#55","entity" : "IFCDERIVEDUNITELEMENT","Unit" : "#50","Exponent" : "1"
+}
+{
+"objectRef" : "#56","entity" : "IFCDERIVEDUNITELEMENT","Unit" : "#53","Exponent" : "-1"
+}
+{
+"objectRef" : "#57","entity" : "IFCDERIVEDUNITELEMENT","Unit" : "#51","Exponent" : "-3"
+}
+{
+"objectRef" : "#58","entity" : "IFCDERIVEDUNIT","Elements" : "(#55,#56,#57),"UnitType" : ".THERMALTRANSMITTANCEUNIT.","UserDefinedType" : "$"
+}
+{
+"objectRef" : "#60","entity" : "IFCSIUNIT","Dimensions" : "*","UnitType" : ".LENGTHUNIT.","Prefix" : ".DECI.","Name" : ".METRE."
+}
+{
+"objectRef" : "#61","entity" : "IFCDERIVEDUNITELEMENT","Unit" : "#43","Exponent" : "3"
+}
+{
+"objectRef" : "#62","entity" : "IFCDERIVEDUNITELEMENT","Unit" : "#51","Exponent" : "-1"
+}
+{
+"objectRef" : "#63","entity" : "IFCDERIVEDUNIT","Elements" : "(#61,#62),"UnitType" : ".VOLUMETRICFLOWRATEUNIT.","UserDefinedType" : "$"
+}
+{
+"objectRef" : "#65","entity" : "IFCSIUNIT","Dimensions" : "*","UnitType" : ".ELECTRICCURRENTUNIT.","Prefix" : "$","Name" : ".AMPERE."
+}
+{
+"objectRef" : "#66","entity" : "IFCSIUNIT","Dimensions" : "*","UnitType" : ".ELECTRICVOLTAGEUNIT.","Prefix" : "$","Name" : ".VOLT."
+}
+{
+"objectRef" : "#67","entity" : "IFCSIUNIT","Dimensions" : "*","UnitType" : ".POWERUNIT.","Prefix" : "$","Name" : ".WATT."
+}
+{
+"objectRef" : "#68","entity" : "IFCSIUNIT","Dimensions" : "*","UnitType" : ".FORCEUNIT.","Prefix" : ".KILO.","Name" : ".NEWTON."
+}
+{
+"objectRef" : "#69","entity" : "IFCSIUNIT","Dimensions" : "*","UnitType" : ".ILLUMINANCEUNIT.","Prefix" : "$","Name" : ".LUX."
+}
+{
+"objectRef" : "#70","entity" : "IFCSIUNIT","Dimensions" : "*","UnitType" : ".LUMINOUSFLUXUNIT.","Prefix" : "$","Name" : ".LUMEN."
+}
+{
+"objectRef" : "#71","entity" : "IFCSIUNIT","Dimensions" : "*","UnitType" : ".LUMINOUSINTENSITYUNIT.","Prefix" : "$","Name" : ".CANDELA."
+}
+{
+"objectRef" : "#72","entity" : "IFCDERIVEDUNITELEMENT","Unit" : "#50","Exponent" : "-1"
+}
+{
+"objectRef" : "#73","entity" : "IFCDERIVEDUNITELEMENT","Unit" : "#43","Exponent" : "-2"
+}
+{
+"objectRef" : "#74","entity" : "IFCDERIVEDUNITELEMENT","Unit" : "#51","Exponent" : "3"
+}
+{
+"objectRef" : "#75","entity" : "IFCDERIVEDUNITELEMENT","Unit" : "#70","Exponent" : "1"
+}
+{
+"objectRef" : "#76","entity" : "IFCDERIVEDUNIT","Elements" : "(#72,#73,#74,#75),"UnitType" : ".USERDEFINED.","UserDefinedType" : "'Luminous Efficacy'"
+}
+{
+"objectRef" : "#78","entity" : "IFCDERIVEDUNITELEMENT","Unit" : "#43","Exponent" : "1"
+}
+{
+"objectRef" : "#79","entity" : "IFCDERIVEDUNITELEMENT","Unit" : "#51","Exponent" : "-1"
+}
+{
+"objectRef" : "#80","entity" : "IFCDERIVEDUNIT","Elements" : "(#78,#79),"UnitType" : ".LINEARVELOCITYUNIT.","UserDefinedType" : "$"
+}
+{
+"objectRef" : "#82","entity" : "IFCSIUNIT","Dimensions" : "*","UnitType" : ".PRESSUREUNIT.","Prefix" : "$","Name" : ".PASCAL."
+}
+{
+"objectRef" : "#83","entity" : "IFCDERIVEDUNITELEMENT","Unit" : "#43","Exponent" : "-2"
+}
+{
+"objectRef" : "#84","entity" : "IFCDERIVEDUNITELEMENT","Unit" : "#50","Exponent" : "1"
+}
+{
+"objectRef" : "#85","entity" : "IFCDERIVEDUNITELEMENT","Unit" : "#51","Exponent" : "-2"
+}
+{
+"objectRef" : "#86","entity" : "IFCDERIVEDUNIT","Elements" : "(#83,#84,#85),"UnitType" : ".USERDEFINED.","UserDefinedType" : "'Friction Loss'"
+}
+{
+"objectRef" : "#88","entity" : "IFCUNITASSIGNMENT","Units" : ["#42","#44","#45","#49","#50","#51","#52","#54","#58","#63","#65","#66","#67","#68","#69","#70","#71","#76","#80","#82","#86"]
+}
+{
+"objectRef" : "#90","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#6","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#91","entity" : "IFCDIRECTION","DirectionRatios" : ["6.12303176911189E-17","1."]
+}
+{
+"objectRef" : "#93","entity" : "IFCGEOMETRICREPRESENTATIONCONTEXT","ContextIdentifier" : "$","ContextType" : "'Model'","CoordinateSpaceDimension" : "3","Precision" : "0.01","WorldCoordinateSystem" : "#90","TrueNorth" : "#91"
+}
+{
+"objectRef" : "#96","entity" : "IFCGEOMETRICREPRESENTATIONSUBCONTEXT","ContextIdentifier" : "'Axis'","ContextType" : "'Model'","CoordinateSpaceDimension" : "*","Precision" : "*","WorldCoordinateSystem" : "*","TrueNorth" : "*","ParentContext" : "#93","TargetScale" : "$","TargetView" : ".GRAPH_VIEW.","UserDefinedTargetView" : "$"
+}
+{
+"objectRef" : "#98","entity" : "IFCGEOMETRICREPRESENTATIONSUBCONTEXT","ContextIdentifier" : "'Body'","ContextType" : "'Model'","CoordinateSpaceDimension" : "*","Precision" : "*","WorldCoordinateSystem" : "*","TrueNorth" : "*","ParentContext" : "#93","TargetScale" : "$","TargetView" : ".MODEL_VIEW.","UserDefinedTargetView" : "$"
+}
+{
+"objectRef" : "#99","entity" : "IFCGEOMETRICREPRESENTATIONSUBCONTEXT","ContextIdentifier" : "'Box'","ContextType" : "'Model'","CoordinateSpaceDimension" : "*","Precision" : "*","WorldCoordinateSystem" : "*","TrueNorth" : "*","ParentContext" : "#93","TargetScale" : "$","TargetView" : ".MODEL_VIEW.","UserDefinedTargetView" : "$"
+}
+{
+"objectRef" : "#100","entity" : "IFCGEOMETRICREPRESENTATIONSUBCONTEXT","ContextIdentifier" : "'FootPrint'","ContextType" : "'Model'","CoordinateSpaceDimension" : "*","Precision" : "*","WorldCoordinateSystem" : "*","TrueNorth" : "*","ParentContext" : "#93","TargetScale" : "$","TargetView" : ".MODEL_VIEW.","UserDefinedTargetView" : "$"
+}
+{
+"objectRef" : "#101","entity" : "IFCPROJECT","GlobalId" : "'0rrsNoT2b6H846O8El2J67'","OwnerHistory" : "#41","Name" : "'Project Number'","Description" : "$","ObjectType" : "$","LongName" : "'Project Name'","Phase" : "'Project Status'","RepresentationContexts" : "(#93),"UnitsInContext" : "#88"
+}
+{
+"objectRef" : "#107","entity" : "IFCPOSTALADDRESS","Purpose" : "$","Description" : "$","UserDefinedPurpose" : "$","InternalLocation" : "$","AddressLines" : "('Enter address here')","PostalBox" : "$","Town" : "''","Region" : "'Canberra'","PostalCode" : "''","Country" : "'Australia'"
+}
+{
+"objectRef" : "#111","entity" : "IFCBUILDING","GlobalId" : "'0rrsNoT2b6H846O8El2J66'","OwnerHistory" : "#41","Name" : "''","Description" : "$","ObjectType" : "$","ObjectPlacement" : "#32","Representation" : "$","LongName" : "''","CompositionType" : ".ELEMENT.","ElevationOfRefHeight" : "$","ElevationOfTerrain" : "$","BuildingAddress" : "#107"
+}
+{
+"objectRef" : "#117","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#6","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#118","entity" : "IFCLOCALPLACEMENT","PlacementRelTo" : "#32","RelativePlacement" : "#117"
+}
+{
+"objectRef" : "#120","entity" : "IFCBUILDINGSTOREY","GlobalId" : "'0rrsNoT2b6H846O8DGziz0'","OwnerHistory" : "#41","Name" : "'Ground Floor'","Description" : "$","ObjectType" : "$","ObjectPlacement" : "#118","Representation" : "$","LongName" : "'Ground Floor'","CompositionType" : ".ELEMENT.","Elevation" : "0."
+}
+{
+"objectRef" : "#122","entity" : "IFCCARTESIANPOINT","Coordinates" : ["0.","0.","4000."]
+}
+{
+"objectRef" : "#124","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#122","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#125","entity" : "IFCLOCALPLACEMENT","PlacementRelTo" : "#32","RelativePlacement" : "#124"
+}
+{
+"objectRef" : "#126","entity" : "IFCBUILDINGSTOREY","GlobalId" : "'0rrsNoT2b6H846O8DGzip1'","OwnerHistory" : "#41","Name" : "'Level 1'","Description" : "$","ObjectType" : "$","ObjectPlacement" : "#125","Representation" : "$","LongName" : "'Level 1'","CompositionType" : ".ELEMENT.","Elevation" : "4000."
+}
+{
+"objectRef" : "#128","entity" : "IFCCARTESIANPOINT","Coordinates" : ["-7202.30310287951","4954.68900957902","0."]
+}
+{
+"objectRef" : "#130","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#128","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#131","entity" : "IFCLOCALPLACEMENT","PlacementRelTo" : "#118","RelativePlacement" : "#130"
+}
+{
+"objectRef" : "#133","entity" : "IFCCARTESIANPOINT","Coordinates" : ["10115.","0."]
+}
+{
+"objectRef" : "#135","entity" : "IFCPOLYLINE","Points" : ["#9","#133"]
+}
+{
+"objectRef" : "#137","entity" : "IFCSHAPEREPRESENTATION","ContextOfItems" : "#96","RepresentationIdentifier" : "'Axis'","RepresentationType" : "'Curve2D'","Items" : ["#135"]
+}
+{
+"objectRef" : "#140","entity" : "IFCCARTESIANPOINT","Coordinates" : ["5057.5","0."]
+}
+{
+"objectRef" : "#142","entity" : "IFCAXIS2PLACEMENT2D","Location" : "#140","RefDirection" : "#25"
+}
+{
+"objectRef" : "#143","entity" : "IFCRECTANGLEPROFILEDEF","ProfileType" : ".AREA.","ProfileName" : "$","Position" : "#142","XDim" : "10115.","YDim" : "230."
+}
+{
+"objectRef" : "#144","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#6","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#145","entity" : "IFCEXTRUDEDAREASOLID","SweptArea" : "#143","Position" : "#144","ExtrudedDirection" : "#19","Depth" : "3700."
+}
+{
+"objectRef" : "#146","entity" : "IFCCARTESIANPOINT","Coordinates" : ["9885.","0."]
+}
+{
+"objectRef" : "#148","entity" : "IFCCARTESIANPOINT","Coordinates" : ["10115.","0."]
+}
+{
+"objectRef" : "#150","entity" : "IFCCARTESIANPOINT","Coordinates" : ["10115.","230."]
+}
+{
+"objectRef" : "#152","entity" : "IFCCARTESIANPOINT","Coordinates" : ["-0.","230."]
+}
+{
+"objectRef" : "#154","entity" : "IFCPOLYLINE","Points" : ["#9","#146","#148","#150","#152","#9"]
+}
+{
+"objectRef" : "#156","entity" : "IFCCARTESIANPOINT","Coordinates" : ["0.","-115.","3700."]
+}
+{
+"objectRef" : "#158","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#156","Axis" : "#21","RefDirection" : "#17"
+}
+{
+"objectRef" : "#159","entity" : "IFCPLANE","Position" : "#158"
+}
+{
+"objectRef" : "#160","entity" : "IFCCARTESIANPOINT","Coordinates" : ["0.","-115.","3700."]
+}
+{
+"objectRef" : "#162","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#160","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#163","entity" : "IFCPOLYGONALBOUNDEDHALFSPACE","BaseSurface" : "#159","AgreementFlag" : ".T.","Position" : "#162","PolygonalBoundary" : "#154"
+}
+{
+"objectRef" : "#164","entity" : "IFCBOOLEANCLIPPINGRESULT","Operator" : ".DIFFERENCE.","FirstOperand" : "#145","SecondOperand" : "#163"
+}
+{
+"objectRef" : "#165","entity" : "IFCCOLOURRGB","Name" : "$","Red" : "0.576470588235294","Green" : "0.447058823529412","Blue" : "0.384313725490196"
+}
+{
+"objectRef" : "#166","entity" : "IFCSURFACESTYLERENDERING","SurfaceColour" : "#165","Transparency" : "0.","DiffuseColour" : "$","TransmissionColour" : "$","DiffuseTransmissionColour" : "$","ReflectionColour" : "$","SpecularColour" : "IFCNORMALISEDRATIOMEASURE(0.5)","SpecularHighlight" : "IFCSPECULAREXPONENT(128.)","ReflectanceMethod" : ".NOTDEFINED."
+}
+{
+"objectRef" : "#167","entity" : "IFCSURFACESTYLE","Name" : "'Masonry - Brick - Brown'","Side" : ".BOTH.","Styles" : ["#166"]
+}
+{
+"objectRef" : "#169","entity" : "IFCPRESENTATIONSTYLEASSIGNMENT","Styles" : ["#167"]
+}
+{
+"objectRef" : "#171","entity" : "IFCSTYLEDITEM","Item" : "#145","Styles" : ["#169"],"Name" : "$"
+}
+{
+"objectRef" : "#174","entity" : "IFCSHAPEREPRESENTATION","ContextOfItems" : "#98","RepresentationIdentifier" : "'Body'","RepresentationType" : "'Clipping'","Items" : ["#164"]
+}
+{
+"objectRef" : "#177","entity" : "IFCPRODUCTDEFINITIONSHAPE","Name" : "$","Description" : "$","Representations" : ["#137","#174"]
+}
+{
+"objectRef" : "#181","entity" : "IFCWALLSTANDARDCASE","GlobalId" : "'2_$$nmzMf85RStYd3jjfGM'","OwnerHistory" : "#41","Name" : "'Basic Wall:Brick - 230:210489'","Description" : "$","ObjectType" : "'Basic Wall:Brick - 230:99987'","ObjectPlacement" : "#131","Representation" : "#177","Tag" : "'210489'"
+}
+{
+"objectRef" : "#190","entity" : "IFCMATERIAL","Name" : "'Masonry - Brick - Brown'"
+}
+{
+"objectRef" : "#193","entity" : "IFCPRESENTATIONSTYLEASSIGNMENT","Styles" : ["#167"]
+}
+{
+"objectRef" : "#195","entity" : "IFCSTYLEDITEM","Item" : "$","Styles" : ["#193"],"Name" : "$"
+}
+{
+"objectRef" : "#197","entity" : "IFCSTYLEDREPRESENTATION","ContextOfItems" : "#93","RepresentationIdentifier" : "'Style'","RepresentationType" : "'Material'","Items" : ["#195"]
+}
+{
+"objectRef" : "#200","entity" : "IFCMATERIALDEFINITIONREPRESENTATION","Name" : "$","Description" : "$","Representations" : ["#197"],"RepresentedMaterial" : "#190"
+}
+{
+"objectRef" : "#203","entity" : "IFCMATERIALLAYER","Material" : "#190","LayerThickness" : "230.","IsVentilated" : "$"
+}
+{
+"objectRef" : "#205","entity" : "IFCMATERIALLAYERSET","MaterialLayers" : ["#203"],"LayerSetName" : "'Basic Wall:Brick - 230'"
+}
+{
+"objectRef" : "#208","entity" : "IFCMATERIALLAYERSETUSAGE","ForLayerSet" : "#205","LayerSetDirection" : ".AXIS2.","DirectionSense" : ".NEGATIVE.","OffsetFromReferenceLine" : "115."
+}
+{
+"objectRef" : "#209","entity" : "IFCWALLTYPE","GlobalId" : "'34CfS1e5vFPw3xqVEsGNS0'","OwnerHistory" : "#41","Name" : "'Basic Wall:Brick - 230'","Description" : "$","ApplicableOccurrence" : "$","HasPropertySets" : "$","RepresentationMaps" : "$","Tag" : "'99987'","ElementType" : "$","PredefinedType" : ".STANDARD."
+}
+{
+"objectRef" : "#211","entity" : "IFCPROPERTYSINGLEVALUE","Name" : "'Reference'","Description" : "$","NominalValue" : "IFCIDENTIFIER('Brick - 230')","Unit" : "$"
+}
+{
+"objectRef" : "#212","entity" : "IFCPROPERTYSINGLEVALUE","Name" : "'LoadBearing'","Description" : "$","NominalValue" : "IFCBOOLEAN(.F.)","Unit" : "$"
+}
+{
+"objectRef" : "#213","entity" : "IFCPROPERTYSINGLEVALUE","Name" : "'ExtendToStructure'","Description" : "$","NominalValue" : "IFCBOOLEAN(.T.)","Unit" : "$"
+}
+{
+"objectRef" : "#214","entity" : "IFCPROPERTYSINGLEVALUE","Name" : "'IsExternal'","Description" : "$","NominalValue" : "IFCBOOLEAN(.T.)","Unit" : "$"
+}
+{
+"objectRef" : "#215","entity" : "IFCPROPERTYSET","GlobalId" : "'2_$$nmzMf85RStWOtjjfGM'","OwnerHistory" : "#41","Name" : "'Pset_WallCommon'","Description" : "$","HasProperties" : ["#211","#212","#213","#214"]
+}
+{
+"objectRef" : "#220","entity" : "IFCRELDEFINESBYPROPERTIES","GlobalId" : "'3vE3qXmubFb99pC1G2bYHM'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#181"],"RelatingPropertyDefinition" : "#215"
+}
+{
+"objectRef" : "#224","entity" : "IFCCLASSIFICATION","Source" : "'http://www.csiorg.net/uniformat'","Edition" : "'1998'","EditionDate" : "$","Name" : "'Uniformat'"
+}
+{
+"objectRef" : "#226","entity" : "IFCCARTESIANPOINT","Coordinates" : ["2797.69689712049","4839.68900957902","0."]
+}
+{
+"objectRef" : "#228","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#226","Axis" : "#19","RefDirection" : "#17"
+}
+{
+"objectRef" : "#229","entity" : "IFCLOCALPLACEMENT","PlacementRelTo" : "#118","RelativePlacement" : "#228"
+}
+{
+"objectRef" : "#230","entity" : "IFCCARTESIANPOINT","Coordinates" : ["10000.","0."]
+}
+{
+"objectRef" : "#232","entity" : "IFCPOLYLINE","Points" : ["#9","#230"]
+}
+{
+"objectRef" : "#234","entity" : "IFCSHAPEREPRESENTATION","ContextOfItems" : "#96","RepresentationIdentifier" : "'Axis'","RepresentationType" : "'Curve2D'","Items" : ["#232"]
+}
+{
+"objectRef" : "#236","entity" : "IFCCARTESIANPOINT","Coordinates" : ["5000.","0."]
+}
+{
+"objectRef" : "#238","entity" : "IFCAXIS2PLACEMENT2D","Location" : "#236","RefDirection" : "#25"
+}
+{
+"objectRef" : "#239","entity" : "IFCRECTANGLEPROFILEDEF","ProfileType" : ".AREA.","ProfileName" : "$","Position" : "#238","XDim" : "10000.","YDim" : "230."
+}
+{
+"objectRef" : "#240","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#6","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#241","entity" : "IFCEXTRUDEDAREASOLID","SweptArea" : "#239","Position" : "#240","ExtrudedDirection" : "#19","Depth" : "3700."
+}
+{
+"objectRef" : "#242","entity" : "IFCCARTESIANPOINT","Coordinates" : ["9770.","-0."]
+}
+{
+"objectRef" : "#244","entity" : "IFCCARTESIANPOINT","Coordinates" : ["10000.","0."]
+}
+{
+"objectRef" : "#246","entity" : "IFCCARTESIANPOINT","Coordinates" : ["10000.","230."]
+}
+{
+"objectRef" : "#248","entity" : "IFCCARTESIANPOINT","Coordinates" : ["0.","230."]
+}
+{
+"objectRef" : "#250","entity" : "IFCPOLYLINE","Points" : ["#9","#242","#244","#246","#248","#9"]
+}
+{
+"objectRef" : "#252","entity" : "IFCCARTESIANPOINT","Coordinates" : ["0.","-115.","3700."]
+}
+{
+"objectRef" : "#254","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#252","Axis" : "#21","RefDirection" : "#11"
+}
+{
+"objectRef" : "#255","entity" : "IFCPLANE","Position" : "#254"
+}
+{
+"objectRef" : "#256","entity" : "IFCCARTESIANPOINT","Coordinates" : ["0.","-115.","3700."]
+}
+{
+"objectRef" : "#258","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#256","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#259","entity" : "IFCPOLYGONALBOUNDEDHALFSPACE","BaseSurface" : "#255","AgreementFlag" : ".T.","Position" : "#258","PolygonalBoundary" : "#250"
+}
+{
+"objectRef" : "#260","entity" : "IFCBOOLEANCLIPPINGRESULT","Operator" : ".DIFFERENCE.","FirstOperand" : "#241","SecondOperand" : "#259"
+}
+{
+"objectRef" : "#261","entity" : "IFCSTYLEDITEM","Item" : "#241","Styles" : ["#169"],"Name" : "$"
+}
+{
+"objectRef" : "#264","entity" : "IFCSHAPEREPRESENTATION","ContextOfItems" : "#98","RepresentationIdentifier" : "'Body'","RepresentationType" : "'Clipping'","Items" : ["#260"]
+}
+{
+"objectRef" : "#266","entity" : "IFCPRODUCTDEFINITIONSHAPE","Name" : "$","Description" : "$","Representations" : ["#234","#264"]
+}
+{
+"objectRef" : "#268","entity" : "IFCWALLSTANDARDCASE","GlobalId" : "'2_$$nmzMf85RStYd3jjfIh'","OwnerHistory" : "#41","Name" : "'Basic Wall:Brick - 230:210564'","Description" : "$","ObjectType" : "'Basic Wall:Brick - 230:99987'","ObjectPlacement" : "#229","Representation" : "#266","Tag" : "'210564'"
+}
+{
+"objectRef" : "#271","entity" : "IFCMATERIALLAYERSETUSAGE","ForLayerSet" : "#205","LayerSetDirection" : ".AXIS2.","DirectionSense" : ".NEGATIVE.","OffsetFromReferenceLine" : "115."
+}
+{
+"objectRef" : "#272","entity" : "IFCPROPERTYSET","GlobalId" : "'2_$$nmzMf85RStWOtjjfIh'","OwnerHistory" : "#41","Name" : "'Pset_WallCommon'","Description" : "$","HasProperties" : ["#211","#212","#213","#214"]
+}
+{
+"objectRef" : "#274","entity" : "IFCRELDEFINESBYPROPERTIES","GlobalId" : "'1sRmqf5_91dPClv5HzRPNw'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#268"],"RelatingPropertyDefinition" : "#272"
+}
+{
+"objectRef" : "#278","entity" : "IFCCARTESIANPOINT","Coordinates" : ["2682.69689712047","-5045.31099042098","0."]
+}
+{
+"objectRef" : "#280","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#278","Axis" : "#19","RefDirection" : "#13"
+}
+{
+"objectRef" : "#281","entity" : "IFCLOCALPLACEMENT","PlacementRelTo" : "#118","RelativePlacement" : "#280"
+}
+{
+"objectRef" : "#282","entity" : "IFCCARTESIANPOINT","Coordinates" : ["9885.","0."]
+}
+{
+"objectRef" : "#284","entity" : "IFCPOLYLINE","Points" : ["#9","#282"]
+}
+{
+"objectRef" : "#286","entity" : "IFCSHAPEREPRESENTATION","ContextOfItems" : "#96","RepresentationIdentifier" : "'Axis'","RepresentationType" : "'Curve2D'","Items" : ["#284"]
+}
+{
+"objectRef" : "#288","entity" : "IFCCARTESIANPOINT","Coordinates" : ["4942.5","0."]
+}
+{
+"objectRef" : "#290","entity" : "IFCAXIS2PLACEMENT2D","Location" : "#288","RefDirection" : "#25"
+}
+{
+"objectRef" : "#291","entity" : "IFCRECTANGLEPROFILEDEF","ProfileType" : ".AREA.","ProfileName" : "$","Position" : "#290","XDim" : "9885.","YDim" : "230."
+}
+{
+"objectRef" : "#292","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#6","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#293","entity" : "IFCEXTRUDEDAREASOLID","SweptArea" : "#291","Position" : "#292","ExtrudedDirection" : "#19","Depth" : "3700."
+}
+{
+"objectRef" : "#294","entity" : "IFCCARTESIANPOINT","Coordinates" : ["9885.","0."]
+}
+{
+"objectRef" : "#296","entity" : "IFCCARTESIANPOINT","Coordinates" : ["9885.","230."]
+}
+{
+"objectRef" : "#298","entity" : "IFCCARTESIANPOINT","Coordinates" : ["0.","230."]
+}
+{
+"objectRef" : "#300","entity" : "IFCPOLYLINE","Points" : ["#9","#294","#296","#298","#9"]
+}
+{
+"objectRef" : "#302","entity" : "IFCCARTESIANPOINT","Coordinates" : ["0.","-115.","3700."]
+}
+{
+"objectRef" : "#304","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#302","Axis" : "#21","RefDirection" : "#15"
+}
+{
+"objectRef" : "#305","entity" : "IFCPLANE","Position" : "#304"
+}
+{
+"objectRef" : "#306","entity" : "IFCCARTESIANPOINT","Coordinates" : ["0.","-115.","3700."]
+}
+{
+"objectRef" : "#308","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#306","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#309","entity" : "IFCPOLYGONALBOUNDEDHALFSPACE","BaseSurface" : "#305","AgreementFlag" : ".T.","Position" : "#308","PolygonalBoundary" : "#300"
+}
+{
+"objectRef" : "#310","entity" : "IFCBOOLEANCLIPPINGRESULT","Operator" : ".DIFFERENCE.","FirstOperand" : "#293","SecondOperand" : "#309"
+}
+{
+"objectRef" : "#311","entity" : "IFCSTYLEDITEM","Item" : "#293","Styles" : ["#169"],"Name" : "$"
+}
+{
+"objectRef" : "#314","entity" : "IFCSHAPEREPRESENTATION","ContextOfItems" : "#98","RepresentationIdentifier" : "'Body'","RepresentationType" : "'Clipping'","Items" : ["#310"]
+}
+{
+"objectRef" : "#316","entity" : "IFCPRODUCTDEFINITIONSHAPE","Name" : "$","Description" : "$","Representations" : ["#286","#314"]
+}
+{
+"objectRef" : "#318","entity" : "IFCWALLSTANDARDCASE","GlobalId" : "'2_$$nmzMf85RStYd3jjfIQ'","OwnerHistory" : "#41","Name" : "'Basic Wall:Brick - 230:210613'","Description" : "$","ObjectType" : "'Basic Wall:Brick - 230:99987'","ObjectPlacement" : "#281","Representation" : "#316","Tag" : "'210613'"
+}
+{
+"objectRef" : "#321","entity" : "IFCMATERIALLAYERSETUSAGE","ForLayerSet" : "#205","LayerSetDirection" : ".AXIS2.","DirectionSense" : ".NEGATIVE.","OffsetFromReferenceLine" : "115."
+}
+{
+"objectRef" : "#322","entity" : "IFCPROPERTYSET","GlobalId" : "'2_$$nmzMf85RStWOtjjfIQ'","OwnerHistory" : "#41","Name" : "'Pset_WallCommon'","Description" : "$","HasProperties" : ["#211","#212","#213","#214"]
+}
+{
+"objectRef" : "#324","entity" : "IFCRELDEFINESBYPROPERTIES","GlobalId" : "'0oIr7wHMj7yf0J4jZk5C7Q'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#318"],"RelatingPropertyDefinition" : "#322"
+}
+{
+"objectRef" : "#328","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#6","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#621","entity" : "IFCRELCONNECTSPATHELEMENTS","GlobalId" : "'3Vqql55sr87QRRijHLZ4op'","OwnerHistory" : "#41","Name" : "'2_$$nmzMf85RStYd3jjfIh|2_$$nmzMf85RStYd3jjfIQ'","Description" : "'Structural'","ConnectionGeometry" : "$","RelatingElement" : "#268","RelatedElement" : "#318","RelatingPriorities" : [""],"RelatedPriorities" : [""],"RelatedConnectionType" : ".ATSTART.","RelatingConnectionType" : ".ATEND."
+}
+{
+"objectRef" : "#330","entity" : "IFCCARTESIANPOINT","Coordinates" : ["0.","-5.40012479177676E-13"]
+}
+{
+"objectRef" : "#332","entity" : "IFCAXIS2PLACEMENT2D","Location" : "#330","RefDirection" : "#23"
+}
+{
+"objectRef" : "#333","entity" : "IFCRECTANGLEPROFILEDEF","ProfileType" : ".AREA.","ProfileName" : "'300 x 450mm'","Position" : "#332","XDim" : "450.","YDim" : "300."
+}
+{
+"objectRef" : "#334","entity" : "IFCCARTESIANPOINT","Coordinates" : ["-7052.30310287952","-45.3109904209637","0."]
+}
+{
+"objectRef" : "#336","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#334","Axis" : "#19","RefDirection" : "#17"
+}
+{
+"objectRef" : "#337","entity" : "IFCEXTRUDEDAREASOLID","SweptArea" : "#333","Position" : "#336","ExtrudedDirection" : "#19","Depth" : "3700."
+}
+{
+"objectRef" : "#338","entity" : "IFCCOLOURRGB","Name" : "$","Red" : "0.752941176470588","Green" : "0.752941176470588","Blue" : "0.752941176470588"
+}
+{
+"objectRef" : "#339","entity" : "IFCSURFACESTYLERENDERING","SurfaceColour" : "#338","Transparency" : "0.","DiffuseColour" : "$","TransmissionColour" : "$","DiffuseTransmissionColour" : "$","ReflectionColour" : "$","SpecularColour" : "IFCNORMALISEDRATIOMEASURE(0.5)","SpecularHighlight" : "IFCSPECULAREXPONENT(128.)","ReflectanceMethod" : ".NOTDEFINED."
+}
+{
+"objectRef" : "#340","entity" : "IFCSURFACESTYLE","Name" : "'Concrete, Cast In Situ'","Side" : ".BOTH.","Styles" : ["#339"]
+}
+{
+"objectRef" : "#342","entity" : "IFCPRESENTATIONSTYLEASSIGNMENT","Styles" : ["#340"]
+}
+{
+"objectRef" : "#344","entity" : "IFCSTYLEDITEM","Item" : "#337","Styles" : ["#342"],"Name" : "$"
+}
+{
+"objectRef" : "#347","entity" : "IFCSHAPEREPRESENTATION","ContextOfItems" : "#98","RepresentationIdentifier" : "'Body'","RepresentationType" : "'SweptSolid'","Items" : ["#337"]
+}
+{
+"objectRef" : "#349","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#6","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#350","entity" : "IFCREPRESENTATIONMAP","MappingOrigin" : "#349","MappedRepresentation" : "#347"
+}
+{
+"objectRef" : "#352","entity" : "IFCCOLUMNTYPE","GlobalId" : "'2_$$nmzMf85RStWd3jjfjf'","OwnerHistory" : "#41","Name" : "'300 x 450mm'","Description" : "$","ApplicableOccurrence" : "$","HasPropertySets" : "$","RepresentationMaps" : ["#350"],"Tag" : "'211248'","ElementType" : "'300 x 450mm'","PredefinedType" : ".COLUMN."
+}
+{
+"objectRef" : "#354","entity" : "IFCMATERIAL","Name" : "'Concrete, Cast In Situ'"
+}
+{
+"objectRef" : "#355","entity" : "IFCPRESENTATIONSTYLEASSIGNMENT","Styles" : ["#340"]
+}
+{
+"objectRef" : "#357","entity" : "IFCSTYLEDITEM","Item" : "$","Styles" : ["#355"],"Name" : "$"
+}
+{
+"objectRef" : "#359","entity" : "IFCSTYLEDREPRESENTATION","ContextOfItems" : "#93","RepresentationIdentifier" : "'Style'","RepresentationType" : "'Material'","Items" : ["#357"]
+}
+{
+"objectRef" : "#361","entity" : "IFCMATERIALDEFINITIONREPRESENTATION","Name" : "$","Description" : "$","Representations" : ["#359"],"RepresentedMaterial" : "#354"
+}
+{
+"objectRef" : "#364","entity" : "IFCCARTESIANTRANSFORMATIONOPERATOR3D","Axis1" : "$","Axis2" : "$","LocalOrigin" : "#6","Scale" : "1.","Axis3" : "$"
+}
+{
+"objectRef" : "#365","entity" : "IFCMAPPEDITEM","MappingSource" : "#350","MappingTarget" : "#364"
+}
+{
+"objectRef" : "#367","entity" : "IFCSHAPEREPRESENTATION","ContextOfItems" : "#98","RepresentationIdentifier" : "'Body'","RepresentationType" : "'MappedRepresentation'","Items" : ["#365"]
+}
+{
+"objectRef" : "#369","entity" : "IFCPRODUCTDEFINITIONSHAPE","Name" : "$","Description" : "$","Representations" : ["#367"]
+}
+{
+"objectRef" : "#371","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#6","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#372","entity" : "IFCLOCALPLACEMENT","PlacementRelTo" : "#118","RelativePlacement" : "#371"
+}
+{
+"objectRef" : "#373","entity" : "IFCCOLUMN","GlobalId" : "'2_$$nmzMf85RStYd3jjfjf'","OwnerHistory" : "#41","Name" : "'Concrete-Rectangular-Column:300 x 450mm:211270'","Description" : "$","ObjectType" : "'300 x 450mm'","ObjectPlacement" : "#372","Representation" : "#369","Tag" : "'211270'"
+}
+{
+"objectRef" : "#376","entity" : "IFCPROPERTYSINGLEVALUE","Name" : "'Reference'","Description" : "$","NominalValue" : "IFCIDENTIFIER('300 x 450mm')","Unit" : "$"
+}
+{
+"objectRef" : "#377","entity" : "IFCPROPERTYSINGLEVALUE","Name" : "'LoadBearing'","Description" : "$","NominalValue" : "IFCBOOLEAN(.T.)","Unit" : "$"
+}
+{
+"objectRef" : "#378","entity" : "IFCPROPERTYSINGLEVALUE","Name" : "'IsExternal'","Description" : "$","NominalValue" : "IFCBOOLEAN(.F.)","Unit" : "$"
+}
+{
+"objectRef" : "#379","entity" : "IFCPROPERTYSET","GlobalId" : "'2Vt2JtKAn1OvRcd97MIVc8'","OwnerHistory" : "#41","Name" : "'Pset_ColumnCommon'","Description" : "$","HasProperties" : ["#376","#377","#378"]
+}
+{
+"objectRef" : "#381","entity" : "IFCRELDEFINESBYPROPERTIES","GlobalId" : "'3CYmvWrnL6kRCFyzdwB4U2'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#373"],"RelatingPropertyDefinition" : "#379"
+}
+{
+"objectRef" : "#385","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#6","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#616","entity" : "IFCRELCONNECTSPATHELEMENTS","GlobalId" : "'0HAlWelYL89xEtE8cXZtyf'","OwnerHistory" : "#41","Name" : "'2_$$nmzMf85RStYd3jjfGM|2_$$nmzMf85RStYd3jjfIh'","Description" : "'Structural'","ConnectionGeometry" : "$","RelatingElement" : "#181","RelatedElement" : "#268","RelatingPriorities" : [""],"RelatedPriorities" : [""],"RelatedConnectionType" : ".ATSTART.","RelatingConnectionType" : ".ATEND."
+}
+{
+"objectRef" : "#387","entity" : "IFCCARTESIANPOINT","Coordinates" : ["-1.42108547152020E-13","-5.40012479177676E-13"]
+}
+{
+"objectRef" : "#389","entity" : "IFCAXIS2PLACEMENT2D","Location" : "#387","RefDirection" : "#23"
+}
+{
+"objectRef" : "#390","entity" : "IFCRECTANGLEPROFILEDEF","ProfileType" : ".AREA.","ProfileName" : "'300 x 450mm'","Position" : "#389","XDim" : "450.","YDim" : "300."
+}
+{
+"objectRef" : "#391","entity" : "IFCCARTESIANPOINT","Coordinates" : ["-7052.30310287952","-2545.31099042096","0."]
+}
+{
+"objectRef" : "#393","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#391","Axis" : "#19","RefDirection" : "#17"
+}
+{
+"objectRef" : "#394","entity" : "IFCEXTRUDEDAREASOLID","SweptArea" : "#390","Position" : "#393","ExtrudedDirection" : "#19","Depth" : "3700."
+}
+{
+"objectRef" : "#395","entity" : "IFCSTYLEDITEM","Item" : "#394","Styles" : ["#342"],"Name" : "$"
+}
+{
+"objectRef" : "#398","entity" : "IFCSHAPEREPRESENTATION","ContextOfItems" : "#98","RepresentationIdentifier" : "'Body'","RepresentationType" : "'SweptSolid'","Items" : ["#394"]
+}
+{
+"objectRef" : "#400","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#6","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#401","entity" : "IFCREPRESENTATIONMAP","MappingOrigin" : "#400","MappedRepresentation" : "#398"
+}
+{
+"objectRef" : "#402","entity" : "IFCCOLUMNTYPE","GlobalId" : "'2_$$nmzMf85RStWd3jjfwC'","OwnerHistory" : "#41","Name" : "'300 x 450mm'","Description" : "$","ApplicableOccurrence" : "$","HasPropertySets" : "$","RepresentationMaps" : ["#401"],"Tag" : "'211248'","ElementType" : "'300 x 450mm'","PredefinedType" : ".COLUMN."
+}
+{
+"objectRef" : "#404","entity" : "IFCMAPPEDITEM","MappingSource" : "#401","MappingTarget" : "#364"
+}
+{
+"objectRef" : "#406","entity" : "IFCSHAPEREPRESENTATION","ContextOfItems" : "#98","RepresentationIdentifier" : "'Body'","RepresentationType" : "'MappedRepresentation'","Items" : ["#404"]
+}
+{
+"objectRef" : "#408","entity" : "IFCPRODUCTDEFINITIONSHAPE","Name" : "$","Description" : "$","Representations" : ["#406"]
+}
+{
+"objectRef" : "#410","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#6","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#411","entity" : "IFCLOCALPLACEMENT","PlacementRelTo" : "#118","RelativePlacement" : "#410"
+}
+{
+"objectRef" : "#412","entity" : "IFCCOLUMN","GlobalId" : "'2_$$nmzMf85RStYd3jjfwC'","OwnerHistory" : "#41","Name" : "'Concrete-Rectangular-Column:300 x 450mm:212131'","Description" : "$","ObjectType" : "'300 x 450mm'","ObjectPlacement" : "#411","Representation" : "#408","Tag" : "'212131'"
+}
+{
+"objectRef" : "#415","entity" : "IFCPROPERTYSET","GlobalId" : "'2r7mTHW190oA23zNWt3Sla'","OwnerHistory" : "#41","Name" : "'Pset_ColumnCommon'","Description" : "$","HasProperties" : ["#376","#377","#378"]
+}
+{
+"objectRef" : "#417","entity" : "IFCRELDEFINESBYPROPERTIES","GlobalId" : "'3TxHJ2c21Cv8HnjkBHsLt5'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#412"],"RelatingPropertyDefinition" : "#415"
+}
+{
+"objectRef" : "#421","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#6","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#613","entity" : "IFCRELDEFINESBYTYPE","GlobalId" : "'2OOKJv1IfAjQSaAvKwWeVN'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#448"],"RelatingType" : "#438"
+}
+{
+"objectRef" : "#423","entity" : "IFCCARTESIANPOINT","Coordinates" : ["2.70006239588838E-13","5.40012479177676E-13"]
+}
+{
+"objectRef" : "#425","entity" : "IFCAXIS2PLACEMENT2D","Location" : "#423","RefDirection" : "#23"
+}
+{
+"objectRef" : "#426","entity" : "IFCRECTANGLEPROFILEDEF","ProfileType" : ".AREA.","ProfileName" : "'300 x 450mm'","Position" : "#425","XDim" : "450.","YDim" : "300."
+}
+{
+"objectRef" : "#427","entity" : "IFCCARTESIANPOINT","Coordinates" : ["-7052.30310287952","2454.68900957903","0."]
+}
+{
+"objectRef" : "#429","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#427","Axis" : "#19","RefDirection" : "#17"
+}
+{
+"objectRef" : "#430","entity" : "IFCEXTRUDEDAREASOLID","SweptArea" : "#426","Position" : "#429","ExtrudedDirection" : "#19","Depth" : "3700."
+}
+{
+"objectRef" : "#431","entity" : "IFCSTYLEDITEM","Item" : "#430","Styles" : ["#342"],"Name" : "$"
+}
+{
+"objectRef" : "#434","entity" : "IFCSHAPEREPRESENTATION","ContextOfItems" : "#98","RepresentationIdentifier" : "'Body'","RepresentationType" : "'SweptSolid'","Items" : ["#430"]
+}
+{
+"objectRef" : "#436","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#6","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#437","entity" : "IFCREPRESENTATIONMAP","MappingOrigin" : "#436","MappedRepresentation" : "#434"
+}
+{
+"objectRef" : "#438","entity" : "IFCCOLUMNTYPE","GlobalId" : "'2_$$nmzMf85RStWd3jjfwJ'","OwnerHistory" : "#41","Name" : "'300 x 450mm'","Description" : "$","ApplicableOccurrence" : "$","HasPropertySets" : "$","RepresentationMaps" : ["#437"],"Tag" : "'211248'","ElementType" : "'300 x 450mm'","PredefinedType" : ".COLUMN."
+}
+{
+"objectRef" : "#440","entity" : "IFCMAPPEDITEM","MappingSource" : "#437","MappingTarget" : "#364"
+}
+{
+"objectRef" : "#442","entity" : "IFCSHAPEREPRESENTATION","ContextOfItems" : "#98","RepresentationIdentifier" : "'Body'","RepresentationType" : "'MappedRepresentation'","Items" : ["#440"]
+}
+{
+"objectRef" : "#444","entity" : "IFCPRODUCTDEFINITIONSHAPE","Name" : "$","Description" : "$","Representations" : ["#442"]
+}
+{
+"objectRef" : "#446","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#6","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#447","entity" : "IFCLOCALPLACEMENT","PlacementRelTo" : "#118","RelativePlacement" : "#446"
+}
+{
+"objectRef" : "#448","entity" : "IFCCOLUMN","GlobalId" : "'2_$$nmzMf85RStYd3jjfwJ'","OwnerHistory" : "#41","Name" : "'Concrete-Rectangular-Column:300 x 450mm:212156'","Description" : "$","ObjectType" : "'300 x 450mm'","ObjectPlacement" : "#447","Representation" : "#444","Tag" : "'212156'"
+}
+{
+"objectRef" : "#451","entity" : "IFCPROPERTYSET","GlobalId" : "'38QjktBzTBje9AwwaTduxw'","OwnerHistory" : "#41","Name" : "'Pset_ColumnCommon'","Description" : "$","HasProperties" : ["#376","#377","#378"]
+}
+{
+"objectRef" : "#453","entity" : "IFCRELDEFINESBYPROPERTIES","GlobalId" : "'316jsvASj6g89_b$pBYc$n'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#448"],"RelatingPropertyDefinition" : "#451"
+}
+{
+"objectRef" : "#459","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#6","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#460","entity" : "IFCLOCALPLACEMENT","PlacementRelTo" : "#118","RelativePlacement" : "#459"
+}
+{
+"objectRef" : "#461","entity" : "IFCCARTESIANPOINT","Coordinates" : ["0.","4.54747350886464E-13"]
+}
+{
+"objectRef" : "#463","entity" : "IFCAXIS2PLACEMENT2D","Location" : "#461","RefDirection" : "#23"
+}
+{
+"objectRef" : "#464","entity" : "IFCRECTANGLEPROFILEDEF","ProfileType" : ".AREA.","ProfileName" : "'Concrete'","Position" : "#463","XDim" : "10230.","YDim" : "10115."
+}
+{
+"objectRef" : "#465","entity" : "IFCCARTESIANPOINT","Coordinates" : ["-2144.80310287952","-45.3109904209791","0."]
+}
+{
+"objectRef" : "#467","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#465","Axis" : "#21","RefDirection" : "#15"
+}
+{
+"objectRef" : "#468","entity" : "IFCEXTRUDEDAREASOLID","SweptArea" : "#464","Position" : "#467","ExtrudedDirection" : "#19","Depth" : "300."
+}
+{
+"objectRef" : "#469","entity" : "IFCSTYLEDITEM","Item" : "#468","Styles" : ["#342"],"Name" : "$"
+}
+{
+"objectRef" : "#472","entity" : "IFCSHAPEREPRESENTATION","ContextOfItems" : "#98","RepresentationIdentifier" : "'Body'","RepresentationType" : "'SweptSolid'","Items" : ["#468"]
+}
+{
+"objectRef" : "#474","entity" : "IFCPRODUCTDEFINITIONSHAPE","Name" : "$","Description" : "$","Representations" : ["#472"]
+}
+{
+"objectRef" : "#476","entity" : "IFCSLAB","GlobalId" : "'2_$$nmzMf85RStYd3jjfxV'","OwnerHistory" : "#41","Name" : "'Floor:Concrete:212208'","Description" : "$","ObjectType" : "'Floor:Concrete'","ObjectPlacement" : "#460","Representation" : "#474","Tag" : "'212208'","PredefinedType" : ".FLOOR."
+}
+{
+"objectRef" : "#479","entity" : "IFCMATERIALLAYER","Material" : "#354","LayerThickness" : "300.","IsVentilated" : "$"
+}
+{
+"objectRef" : "#480","entity" : "IFCMATERIALLAYERSET","MaterialLayers" : ["#479"],"LayerSetName" : "'Floor:Concrete'"
+}
+{
+"objectRef" : "#483","entity" : "IFCMATERIALLAYERSETUSAGE","ForLayerSet" : "#480","LayerSetDirection" : ".AXIS3.","DirectionSense" : ".POSITIVE.","OffsetFromReferenceLine" : "0."
+}
+{
+"objectRef" : "#484","entity" : "IFCPROPERTYSINGLEVALUE","Name" : "'Reference'","Description" : "$","NominalValue" : "IFCIDENTIFIER('Concrete')","Unit" : "$"
+}
+{
+"objectRef" : "#485","entity" : "IFCPROPERTYSINGLEVALUE","Name" : "'ThermalTransmittance'","Description" : "$","NominalValue" : "IFCTHERMALTRANSMITTANCEMEASURE(3.48666666666667)","Unit" : "$"
+}
+{
+"objectRef" : "#486","entity" : "IFCPROPERTYSINGLEVALUE","Name" : "'PitchAngle'","Description" : "$","NominalValue" : "IFCPLANEANGLEMEASURE(0.)","Unit" : "$"
+}
+{
+"objectRef" : "#487","entity" : "IFCPROPERTYSET","GlobalId" : "'2_$$nmzMf85RStWOljjfxV'","OwnerHistory" : "#41","Name" : "'Pset_SlabCommon'","Description" : "$","HasProperties" : ["#377","#378","#484","#485","#486"]
+}
+{
+"objectRef" : "#489","entity" : "IFCRELDEFINESBYPROPERTIES","GlobalId" : "'0rDWZMTbz3NhrTlfKtPKRY'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#476"],"RelatingPropertyDefinition" : "#487"
+}
+{
+"objectRef" : "#496","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#6","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#497","entity" : "IFCLOCALPLACEMENT","PlacementRelTo" : "#125","RelativePlacement" : "#496"
+}
+{
+"objectRef" : "#498","entity" : "IFCCARTESIANPOINT","Coordinates" : ["0.","4.54747350886464E-13"]
+}
+{
+"objectRef" : "#500","entity" : "IFCAXIS2PLACEMENT2D","Location" : "#498","RefDirection" : "#23"
+}
+{
+"objectRef" : "#501","entity" : "IFCRECTANGLEPROFILEDEF","ProfileType" : ".AREA.","ProfileName" : "'Concrete'","Position" : "#500","XDim" : "10230.","YDim" : "10115."
+}
+{
+"objectRef" : "#502","entity" : "IFCCARTESIANPOINT","Coordinates" : ["-2144.80310287952","-45.3109904209856","0."]
+}
+{
+"objectRef" : "#504","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#502","Axis" : "#21","RefDirection" : "#15"
+}
+{
+"objectRef" : "#505","entity" : "IFCEXTRUDEDAREASOLID","SweptArea" : "#501","Position" : "#504","ExtrudedDirection" : "#19","Depth" : "300."
+}
+{
+"objectRef" : "#506","entity" : "IFCSTYLEDITEM","Item" : "#505","Styles" : ["#342"],"Name" : "$"
+}
+{
+"objectRef" : "#509","entity" : "IFCSHAPEREPRESENTATION","ContextOfItems" : "#98","RepresentationIdentifier" : "'Body'","RepresentationType" : "'SweptSolid'","Items" : ["#505"]
+}
+{
+"objectRef" : "#511","entity" : "IFCPRODUCTDEFINITIONSHAPE","Name" : "$","Description" : "$","Representations" : ["#509"]
+}
+{
+"objectRef" : "#513","entity" : "IFCSLAB","GlobalId" : "'2_$$nmzMf85RStYd3jjfz4'","OwnerHistory" : "#41","Name" : "'Floor:Concrete:212331'","Description" : "$","ObjectType" : "'Floor:Concrete'","ObjectPlacement" : "#497","Representation" : "#511","Tag" : "'212331'","PredefinedType" : ".FLOOR."
+}
+{
+"objectRef" : "#516","entity" : "IFCMATERIALLAYERSETUSAGE","ForLayerSet" : "#480","LayerSetDirection" : ".AXIS3.","DirectionSense" : ".POSITIVE.","OffsetFromReferenceLine" : "0."
+}
+{
+"objectRef" : "#517","entity" : "IFCPROPERTYSINGLEVALUE","Name" : "'ThermalTransmittance'","Description" : "$","NominalValue" : "IFCTHERMALTRANSMITTANCEMEASURE(3.48666666666667)","Unit" : "$"
+}
+{
+"objectRef" : "#518","entity" : "IFCPROPERTYSET","GlobalId" : "'2_$$nmzMf85RStWOljjfz4'","OwnerHistory" : "#41","Name" : "'Pset_SlabCommon'","Description" : "$","HasProperties" : ["#377","#378","#484","#486","#517"]
+}
+{
+"objectRef" : "#520","entity" : "IFCRELDEFINESBYPROPERTIES","GlobalId" : "'29R6541uD5o862joalYmo8'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#513"],"RelatingPropertyDefinition" : "#518"
+}
+{
+"objectRef" : "#524","entity" : "IFCAXIS2PLACEMENT3D","Location" : "#6","Axis" : "$","RefDirection" : "$"
+}
+{
+"objectRef" : "#525","entity" : "IFCLOCALPLACEMENT","PlacementRelTo" : "$","RelativePlacement" : "#524"
+}
+{
+"objectRef" : "#526","entity" : "IFCSITE","GlobalId" : "'0rrsNoT2b6H846O8El2J65'","OwnerHistory" : "#41","Name" : "'Default'","Description" : "$","ObjectType" : "''","ObjectPlacement" : "#525","Representation" : "$","LongName" : "$","CompositionType" : ".ELEMENT.","RefLatitude" : ["-35","-18","-23","-549194"],"RefLongitude" : ["149","7","35","603027"],"RefElevation" : "0.","LandTitleNumber" : "$","SiteAddress" : "$"
+}
+{
+"objectRef" : "#531","entity" : "IFCPROPERTYSINGLEVALUE","Name" : "'AboveGround'","Description" : "$","NominalValue" : "IFCLOGICAL(.U.)","Unit" : "$"
+}
+{
+"objectRef" : "#532","entity" : "IFCPROPERTYSET","GlobalId" : "'3Zu5Bv0LOHrPC12_o6FoQQ'","OwnerHistory" : "#41","Name" : "'Pset_BuildingStoreyCommon'","Description" : "$","HasProperties" : ["#531"]
+}
+{
+"objectRef" : "#534","entity" : "IFCRELDEFINESBYPROPERTIES","GlobalId" : "'0gRbDanOT2$9FKQkWFTZdn'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#120"],"RelatingPropertyDefinition" : "#532"
+}
+{
+"objectRef" : "#538","entity" : "IFCRELCONTAINEDINSPATIALSTRUCTURE","GlobalId" : "'3Zu5Bv0LOHrPC10066FoQQ'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedElements" : ["#181","#268","#318","#373","#412","#448","#476"],"RelatingStructure" : "#120"
+}
+{
+"objectRef" : "#548","entity" : "IFCPROPERTYSET","GlobalId" : "'15Z0v90RiHrPC22_o6FoKR'","OwnerHistory" : "#41","Name" : "'Pset_BuildingStoreyCommon'","Description" : "$","HasProperties" : ["#531"]
+}
+{
+"objectRef" : "#550","entity" : "IFCRELDEFINESBYPROPERTIES","GlobalId" : "'3zgS4WyPD6eBgVnH$nbB1T'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#126"],"RelatingPropertyDefinition" : "#548"
+}
+{
+"objectRef" : "#554","entity" : "IFCRELCONTAINEDINSPATIALSTRUCTURE","GlobalId" : "'15Z0v90RiHrPC20066FoKR'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedElements" : ["#513"],"RelatingStructure" : "#126"
+}
+{
+"objectRef" : "#558","entity" : "IFCRELAGGREGATES","GlobalId" : "'1JRECQvLf3ZhWaQQIbvAdh'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatingObject" : "#101","RelatedObjects" : ["#526"]
+}
+{
+"objectRef" : "#562","entity" : "IFCRELAGGREGATES","GlobalId" : "'2wy35nzsrBZwFbntULXPJ9'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatingObject" : "#526","RelatedObjects" : ["#111"]
+}
+{
+"objectRef" : "#566","entity" : "IFCRELAGGREGATES","GlobalId" : "'27PCKGLxT4mxtV9cw6mgBW'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatingObject" : "#111","RelatedObjects" : ["#120","#126"]
+}
+{
+"objectRef" : "#571","entity" : "IFCPROPERTYSINGLEVALUE","Name" : "'NumberOfStoreys'","Description" : "$","NominalValue" : "IFCINTEGER(2)","Unit" : "$"
+}
+{
+"objectRef" : "#572","entity" : "IFCPROPERTYSET","GlobalId" : "'27PCKGLxT4mxtVBOQ6mgBW'","OwnerHistory" : "#41","Name" : "'Pset_BuildingCommon'","Description" : "$","HasProperties" : ["#571"]
+}
+{
+"objectRef" : "#574","entity" : "IFCRELDEFINESBYPROPERTIES","GlobalId" : "'2fvRmHidP7tOoqZ9znq5jc'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#111"],"RelatingPropertyDefinition" : "#572"
+}
+{
+"objectRef" : "#578","entity" : "IFCRELASSOCIATESMATERIAL","GlobalId" : "'2Ya72byoH4ounpNEQ0AFz8'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#181"],"RelatingMaterial" : "#208"
+}
+{
+"objectRef" : "#581","entity" : "IFCRELASSOCIATESMATERIAL","GlobalId" : "'0mSTGAuAP8S9TPu1bben7Q'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#209"],"RelatingMaterial" : "#205"
+}
+{
+"objectRef" : "#584","entity" : "IFCRELASSOCIATESMATERIAL","GlobalId" : "'2QPh4OPsP15fiBSmgHzxNw'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#268"],"RelatingMaterial" : "#271"
+}
+{
+"objectRef" : "#587","entity" : "IFCRELASSOCIATESMATERIAL","GlobalId" : "'2fis0geWD4xPm_eUAoa2F1'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#318"],"RelatingMaterial" : "#321"
+}
+{
+"objectRef" : "#590","entity" : "IFCRELASSOCIATESMATERIAL","GlobalId" : "'0JkjaQVKv4yuhqMfYnPm51'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#476"],"RelatingMaterial" : "#483"
+}
+{
+"objectRef" : "#593","entity" : "IFCRELASSOCIATESMATERIAL","GlobalId" : "'1YG4C0AvzAVwmYUjC43P13'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#513"],"RelatingMaterial" : "#516"
+}
+{
+"objectRef" : "#596","entity" : "IFCRELASSOCIATESMATERIAL","GlobalId" : "'0H1uQmdj5F0O9gvicll1kp'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#352","#373","#402","#412","#438","#448"],"RelatingMaterial" : "#354"
+}
+{
+"objectRef" : "#604","entity" : "IFCRELDEFINESBYTYPE","GlobalId" : "'0F23IV$ozC9Bn2ePA4Egr3'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#181","#268","#318"],"RelatingType" : "#209"
+}
+{
+"objectRef" : "#607","entity" : "IFCRELDEFINESBYTYPE","GlobalId" : "'2G3vW6KJL73xlZVN7MB5YU'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#373"],"RelatingType" : "#352"
+}
+{
+"objectRef" : "#610","entity" : "IFCRELDEFINESBYTYPE","GlobalId" : "'2Zr$MPrqnAjudUd9MH7ulO'","OwnerHistory" : "#41","Name" : "$","Description" : "$","RelatedObjects" : ["#412"],"RelatingType" : "#402"
+}
+{
+"objectRef" : "#626","entity" : "IFCPRESENTATIONLAYERASSIGNMENT","Name" : "'A-FLOR-____-OTLN'","Description" : "$","AssignedItems" : ["#472","#509"],"Identifier" : "$"
+}
+{
+"objectRef" : "#628","entity" : "IFCPRESENTATIONLAYERASSIGNMENT","Name" : "'A-WALL-____-OTLN'","Description" : "$","AssignedItems" : ["#137","#174","#234","#264","#286","#314"],"Identifier" : "$"
+}
+{
+"objectRef" : "#630","entity" : "IFCPRESENTATIONLAYERASSIGNMENT","Name" : "'S-COLS-____-OTLN'","Description" : "$","AssignedItems" : ["#347","#367","#398","#406","#434","#442"],"Identifier" : "$"
+}
+ENDSEC;
+END-ISO-10303-21;
